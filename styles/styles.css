@@ -1,18 +1,18 @@
-nav ul { list-style: none; margin: 0.8; padding: 0; display: flex; justify-content: space-around; }
-/* nav li {margin-right: 30px;} */
+/* nav ul { list-style: none; margin: 0.8; padding: 0; display: flex; justify-content: space-around; }
+nav li {margin-right: 30px;}
 nav a {text-decoration: lightskyblue;color: #337ab7 ;}
 nav a:hover {color: hsl(315, 56%, 31%); }
-
+/* 
 body {
 background-image: url('images/peakpx.jpg');
 background-size: cover;
 background-position: center;
-}
+} */
 
-.navigational_bar { 
-    height: 100px; 
-    width: 100%;
-    background-color: (light pink);(255, 255, 255, 0.73)
+/* .navigational_bar {  */
+    /* height: 100px;  */
+    /* width: 100%; */
+    /* background-color: (light pink);(255, 255, 255, 0.73) */
     
     /* flex: 1 1 auto; */
    /* list-style: none; */
@@ -22,7 +22,7 @@ background-position: center;
     /* margin-right: 30px; */
     /* text-decoration: lightskyblue;color: #337ab7 ; */
     /* hover color: #7c2366; }  */
-}
+} */
 
 .about_the_island {
     height: 190px;

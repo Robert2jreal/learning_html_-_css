@@ -1,41 +1,83 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Explore Taniti</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" id="flexDesktopViewport">
-        <meta>
-        <style>
-            @import 'styles/styles.css';
-        </style>
-    </head>
-        <body>
-            <nav>
-                <header style="text-align: center;">
-                <h1 style="font-size: 4em; font-weight: bold">Taniti</h1>
-                </header>
-            <nav>
-                <ul>
-            <nav class="navigational_bar">
-                <ul style="list-style: none; margin: 0.8; padding: 0; display: flex; justify-content: space-around; background-color: white;">
-                    <li><a href="index.html" style="font-size: 2.2em; font-weight: bold;">Home</a></li>
-                    <li><a href="Explore Taniti.html" style="font-size: 2.2em; font-weight: bold; color: #7c2366">Explore Taniti</a></li>
-                    <li><a href="Tourist needs.html" style="font-size: 2.2em; font-weight: bold;">Tourist needs</a></li>
-                    <li><a href="Stay & Dine.html" style="font-size: 2.2em; font-weight: bold;">Stay & Dine</a></li>
-                    <li><a href="Book Your activities.html" style="font-size: 2.2em; font-weight: bold;">Book Your activities</a></li>
-                    <li><a href="FAQ.html" style="font-size: 2.2em; font-weight: bold;">FAQ</a></li>
-                </ul>
-            </nav>
-                </nav>
-<main style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-                <section>
-                    <p style="text-align: center; font-size: 3em; font-weight: bold">Discover the beauty and culture of Taniti.</p> 
-                </section>
-</main>
-            </nav>
-        </body>
-        <footer>
-            <!-- <p>&copy; 2023 Taniti. All rights reserved.</p> -->
-        </footer>
-    </head>
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Needs</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        body {
+            background-image: url('images/peakpx.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0; /* Remove default margin */
+            font-family: sans-serif; /* Add a default font */
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+        }
+        nav li { margin-right: 30px; }
+        nav a {
+            text-decoration: none; /* Remove underline from links */
+            color: #337ab7;
+            font-size: 2em; /* Adjust font size as needed */
+            font-weight: bold;
+        }
+        nav a:hover { color: #7c2366; }
+        header { text-align: center; padding: 1em 0;} /* Add padding to header */
+        h1 { font-size: 4em; font-weight: bold; } /* Adjust h1 size */
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 100px); /* Account for header/footer height */
+            padding: 20px; /* Add some padding */
+        }
+        main section p {
+            text-align: center;
+            font-size: 2em; /* Adjust paragraph size */
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0; /* Add padding to footer */
+            background-color: rgba(43, 198, 182, 0.664); /* Add a semi-transparent background  -->
+            color: white; /* Make text white */
+            position: fixed; /* Keep footer at bottom */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Taniti</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Explore Taniti.html">Explore Taniti</a></li>
+            <li><a href="Tourist needs.html" style="color: #7c2366;">Tourist needs</a></li>
+            <li><a href="Stay & Dine.html">Stay & Dine</a></li>
+            <li><a href="Book Your activities.html">Book Your activities</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <p>Discover the beauty and culture of Taniti.</p>
+            <a href="Explore Taniti.html" style="text-decoration: none;"> <button style="background-color: pink; color: black; font-size: 2em; display: block; margin: 0 auto;">Explore</button></a>
+        </section>
+    </main>
+
+    <footer>
+        <!-- <p>&copy; 2023 Taniti. All rights reserved.</p> -->
+    </footer>
+</body>
+</html>
